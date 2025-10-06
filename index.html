@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Chronologique - Montpellier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz Chronologique</h1>
+        
+        <div class="game-info">
+            <div class="info-box">
+                <span class="label">Temps écoulé :</span>
+                <span id="timer">00:00</span>
+            </div>
+            <div class="info-box">
+                <span class="label">Tentatives :</span>
+                <span id="attempts">0</span>
+            </div>
+        </div>
+        
+        <p class="instruction">Glissez-déposez les monuments du plus ancien au plus récent</p>
+        
+        <div id="monuments-pool" class="pool">
+            <div class="card" data-year="1364" draggable="true">
+                <img src="images/cathedrale-st-pierre.jpg" alt="Cathédrale">
+                <h3>Cathédrale Saint-Pierre</h3>
+                <span class="hidden-year">1364</span>
+            </div>
+            <div class="card" data-year="1692" draggable="true">
+                <img src="images/arc.jpg" alt="Arc">
+                <h3>Arc de Triomphe</h3>
+                <span class="hidden-year">1692</span>
+            </div>
+            <div class="card" data-year="1755" draggable="true">
+                <img src="images/comedie.jpg" alt="Comédie">
+                <h3>Place de la Comédie</h3>
+                <span class="hidden-year">1755</span>
+            </div>
+            <div class="card" data-year="1839" draggable="true">
+                <img src="images/gare.jpg" alt="Gare">
+                <h3>Gare Saint-Roch</h3>
+                <span class="hidden-year">1839</span>
+            </div>
+            <div class="card" data-year="1978" draggable="true">
+                <img src="images/antigone.jpg" alt="Antigone">
+                <h3>Quartier Antigone</h3>
+                <span class="hidden-year">1978</span>
+            </div>
+        </div>
+
+        <div id="timeline" class="timeline">
+            <div class="drop-zone"></div>
+            <div class="drop-zone"></div>
+            <div class="drop-zone"></div>
+            <div class="drop-zone"></div>
+            <div class="drop-zone"></div>
+        </div>
+
+        <button id="verify-btn" onclick="verifyOrder()">Vérifier</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
