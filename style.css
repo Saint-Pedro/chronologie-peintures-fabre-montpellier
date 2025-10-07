@@ -99,6 +99,14 @@ h1 {
     color: #333;
 }
 
+.card .artist {
+    font-size: 12px;
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    margin-top: 5px;
+}
+
 .hidden-year {
     display: none;
 }

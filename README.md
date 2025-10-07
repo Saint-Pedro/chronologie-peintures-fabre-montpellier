@@ -1,18 +1,19 @@
-# Quiz Chronologique - Monuments de Montpellier
+# Quiz Chronologique - Peintures du Musée
 
-Jeu éducatif de classement chronologique des monuments emblématiques de Montpellier. Développé dans le cadre du Workshop EPSI 2025-26.
+Jeu éducatif de classement chronologique de peintures du musée Fabre. Adaptation du jeu des monuments pour les œuvres d'art.
+Développé dans le cadre du Workshop EPSI 2025-26.
 
 ## Description
 
-Les joueurs doivent classer 5 monuments de Montpellier du plus ancien au plus récent par glisser-déposer. Le jeu inclut un timer, un compteur de tentatives et conserve les bonnes réponses pour éviter la frustration.
+Les joueurs doivent classer 5 peintures de Montpellier de la plus ancienne à la plus récente avec un glisser-déposer. Le jeu inclut un timer, un compteur de tentatives et conserve les bonnes réponses pour éviter la frustration.
 
-## Monuments inclus
+## Œuvres incluses
 
-- **Cathédrale Saint-Pierre** (1364)
-- **Arc de Triomphe** (1692)
-- **Place de la Comédie** (1755)
-- **Gare Saint-Roch** (1839)
-- **Quartier Antigone** (1978)
+- **Portrait du cardinal de Bonsy** - Le Dominiquin (vers 1615)
+- **Sainte Marie l'Égyptienne** - Jusepe de Ribera (1641)
+- **Portrait de Madame Pasta** - François Gérard (1831-35)
+- **Un penseur, jeune moine romain** - Alexandre Cabanel (1848)
+- **Albaydé** - Alexandre Cabanel (1848)
 
 ## Fonctionnalités
 
@@ -24,13 +25,19 @@ Les joueurs doivent classer 5 monuments de Montpellier du plus ancien au plus r�
 - Interface responsive et moderne
 - Feedback visuel immédiat
 
-## Technologies utilisées
+## Structure
 
-- HTML5
-- CSS3
-- JavaScript Vanilla (pas de framework)
+chronologie-peintures/
+├── index.html
+├── style.css
+├── script.js
+└── images/
+├── bonsy.jpg
+├── marie-egyptienne.jpg
+├── pasta.jpg
+├── penseur.jpg
+└── albayde.jpg
 
 ## Installation
-```bash
-git clone https://github.com/Saint-Pedro/chronologie-monuments-montpellier.git
-cd chronologie-monuments-montpellier
+Équipe Workshop EPSI 2025-26 - Groupe 10
+
