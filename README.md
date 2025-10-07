@@ -28,3 +28,4 @@ Les joueurs doivent classer 5 peintures de Montpellier de la plus ancienne à la
 ## Installation
 Équipe Workshop EPSI 2025-26 - Groupe 10
 
+<img width="934" height="667" alt="image" src="https://github.com/user-attachments/assets/e5a91b5b-aadf-488c-9f61-30eb0e9feebb" />
