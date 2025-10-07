@@ -25,19 +25,6 @@ Les joueurs doivent classer 5 peintures de Montpellier de la plus ancienne à la
 - Interface responsive et moderne
 - Feedback visuel immédiat
 
-## Structure
-
-chronologie-peintures/
-├── index.html
-├── style.css
-├── script.js
-└── images/
-├── bonsy.jpg
-├── marie-egyptienne.jpg
-├── pasta.jpg
-├── penseur.jpg
-└── albayde.jpg
-
 ## Installation
 Équipe Workshop EPSI 2025-26 - Groupe 10
 
